@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -31,5 +31,5 @@ alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false 
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
-alias aliases="vim ~/.aliases && . ~/.aliases"
-alias bashprofile="vim ~/.profile && . ~/.profile"
+alias aliases="vim ~/.zsh_aliases && . ~/.zsh_aliases"
+alias zshrc="vim ~/.zshrc && . ~/.zshrc"
