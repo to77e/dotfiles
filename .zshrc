@@ -1,14 +1,21 @@
 #eval "$(/opt/homebrew/bin/brew shellenv)"
 
-export PATH="/opt/homebrew/bin:$PATH";
+autoload -Uz compinit && compinit
 
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="/opt/homebrew/bin:$PATH";
+export PATH="/opt/homebrew/sbin:$PATH";
+export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH";
 
 # Add golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export GOBIN=$GOPATH/bin
+export GONOPROXY=""
+export GO111MODULE=on
+export GOINSECURE=none
 
 # customization
 source ~/.zsh_prompt
 source ~/.zsh_aliases
+#source ~/.zsh_o3
+

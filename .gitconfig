@@ -1,0 +1,8 @@
+[includeIf "gitdir:~/pet-projects/"]
+  	path = .gitconfig-personal
+#[includeIf "gitdir:~/internal-projects/"]
+#  	path = .gitconfig-professional
+[url "git@gitlab.ozon.ru:"]
+    insteadOf = https://gitlab.ozon.ru/
+[url "git@github.com:"]
+    insteadOf = https://github.com/
