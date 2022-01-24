@@ -10,8 +10,8 @@ function setup() {
 	--exclude "*.terminal" \
 	--exclude ".git/" \
 	--exclude ".gitignore" \
-	--exclude ".DS_STORE"
-	--exclude ".DS_Store"
+	--exclude ".DS_STORE" \
+	--exclude ".DS_Store" \
 	-avh --no-perms . ~;
 	source ~/.zshrc;
 }
