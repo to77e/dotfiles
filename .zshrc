@@ -1,5 +1,14 @@
 #eval "$(/opt/homebrew/bin/brew shellenv)"
 
+git() { 
+   if [[ $1 == "clone" ]]; then 
+      command git "$@" && cp ~/.prepare-commit-msg ./$(basename "$2" .git)/.git/hooks/prepare-commit-msg;
+      echo "file \".prepare-commit-msg\" was copied"
+   else 
+      command git "$@"; 
+   fi; 
+}
+
 autoload -Uz compinit && compinit
 
 export PATH="/opt/homebrew/bin:$PATH";

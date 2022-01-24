@@ -1,0 +1,11 @@
+/bin
+/vendor
+/vendor.pb
+.DS_STORE
+.DS_Store
+/.idea
+/.vscode
+
+/.o3/k8s/values_local.yaml
+*.exe
+vendor.protogen/
