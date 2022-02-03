@@ -26,5 +26,5 @@ export GOINSECURE=none
 # customization
 source ~/.zsh_prompt
 source ~/.zsh_aliases
-#source ~/.zsh_o3
+source ~/.zsh_o3
 

@@ -1,0 +1,10 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.fontSize": 18,
+    "editor.quickSuggestionsDelay": 20,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "editor.hover.enabled": false
+}

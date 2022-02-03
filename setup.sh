@@ -13,6 +13,7 @@ function setup() {
 	--exclude ".DS_STORE" \
 	--exclude ".DS_Store" \
 	-avh --no-perms . ~;
+	rsync -avh --no-perms ./vscode/*.json ~/Library/Application\ Support/Code/User/;
 	source ~/.zshrc;
 }
 
