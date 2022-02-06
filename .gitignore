@@ -9,3 +9,6 @@
 /.o3/k8s/values_local.yaml
 *.exe
 vendor.protogen/
+.gitconfig-personal
+.gitconfig-professional
+.zsh_professional
