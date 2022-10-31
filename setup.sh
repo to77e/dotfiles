@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 cd "$(dirname "${BASH_SOURCE[0]}")";
 
@@ -10,11 +10,8 @@ function setup() {
 	--exclude "*.terminal" \
 	--exclude ".git/" \
 	--exclude ".gitignore" \
-	--exclude ".DS_STORE" \
-	--exclude ".DS_Store" \
 	-avh --no-perms . ~;
-	rsync -avh --no-perms ./vscode/*.json ~/Library/Application\ Support/Code/User/;
-	source ~/.zshrc;
+	source ~/.bashrc;
 }
 
 if [ "$1" = "--force" -o "$1" = "-f" ]; then
