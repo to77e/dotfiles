@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 cd "$(dirname "${BASH_SOURCE[0]}")";
 
@@ -7,11 +7,12 @@ git pull origin main;
 function setup() {
 	rsync --exclude "README.md" \
 	--exclude "*.sh" \
-	--exclude "*.terminal" \
 	--exclude ".git/" \
 	--exclude ".gitignore" \
+	--exclude ".DS_STORE" \
+	--exclude ".DS_Store" \
 	-avh --no-perms . ~;
-	source ~/.bashrc;
+	source ~/.zshrc;
 }
 
 if [ "$1" = "--force" -o "$1" = "-f" ]; then
