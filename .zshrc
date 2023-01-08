@@ -62,8 +62,12 @@ alias gp="git push"
 alias gm="git checkout master"
 alias gl="git log --graph --all"
 
-alias rm='echo "rm is disabled, use remove instead."'
-alias remove="mv -t ${HOME}/.Trash"
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias rm='echo "rm is disabled, use trash instead."'
 
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
