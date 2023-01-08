@@ -13,7 +13,6 @@ autoload -Uz compinit && compinit
 
 export PATH="/opt/homebrew/bin:$PATH";
 export PATH="/opt/homebrew/sbin:$PATH";
-export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH";
 
 # Add golang
 export GOPATH=$HOME/go
