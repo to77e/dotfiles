@@ -11,9 +11,6 @@ git() {
 
 autoload -Uz compinit && compinit
 
-export PATH="/opt/homebrew/bin:$PATH";
-export PATH="/opt/homebrew/sbin:$PATH";
-
 # Add golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin

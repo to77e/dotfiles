@@ -8,6 +8,7 @@ function setup() {
 	rsync --exclude "README.md" \
 	--exclude "*.sh" \
 	--exclude ".git/" \
+	--exclude ".idea/" \
 	--exclude ".gitignore" \
 	--exclude ".DS_STORE" \
 	--exclude ".DS_Store" \
