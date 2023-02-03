@@ -12,6 +12,7 @@ function setup() {
 	--exclude ".gitignore" \
 	--exclude ".DS_STORE" \
 	--exclude ".DS_Store" \
+	--exclude ".ssh_config" \
 	-avh --no-perms . ~;
 	source ~/.zshrc;
 }
