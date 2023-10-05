@@ -1,8 +1,6 @@
 [includeIf "gitdir:~/pet-projects/"]
-  	path = .gitconfig-personal
+    path = .config/.gitconfig-personal
 [includeIf "gitdir:~/internal-projects/"]
-  	path = .gitconfig-professional
-[url "git@vcs2.b2brocker.tech:"]
-    insteadOf = https://vcs2.b2brocker.tech/
+    path = .config/.gitconfig-professional
 [url "git@github.com:"]
     insteadOf = https://github.com/

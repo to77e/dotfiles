@@ -1,15 +1,10 @@
 /bin
-/vendor
-/vendor.pb
 .DS_STORE
 .DS_Store
 /.idea
-/.vscode
+/.configs
 
-/.o3/k8s/values_local.yaml
-*.exe
-vendor.protogen/
-.gitconfig-personal
-.gitconfig-professional
+.config/.gitconfig-personal
+.config/.gitconfig-professional
 .zsh_professional
 .ssh_config

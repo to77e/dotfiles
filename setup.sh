@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 cd "$(dirname "${BASH_SOURCE[0]}")";
 
@@ -10,11 +10,8 @@ function setup() {
 	--exclude ".git/" \
 	--exclude ".idea/" \
 	--exclude ".gitignore" \
-	--exclude ".DS_STORE" \
-	--exclude ".DS_Store" \
-	--exclude ".ssh_config" \
 	-avh --no-perms . ~;
-	source ~/.zshrc;
+	source ~/.bashrc;
 }
 
 if [ "$1" = "--force" -o "$1" = "-f" ]; then
