@@ -1,6 +1,6 @@
 # dotfiles
 
-Please install trash before using.
+Please install trash before using:  
 for zsh:  
 ```shell
 brew install trash
