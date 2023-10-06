@@ -27,7 +27,7 @@ alias k=kubectl
 alias rm='echo "rm is disabled, use trash instead."'
 alias bashrc="vim ~/.bashrc && . ~/.bashrc"
 
-#aliases for mac
+#zsh
 #alias ll='ls -alF'
 #alias la='ls -A'
 #alias l='ls -CF'

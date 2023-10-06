@@ -2,9 +2,6 @@
 .DS_STORE
 .DS_Store
 /.idea
-/.configs
 
 .config/.gitconfig-personal
 .config/.gitconfig-professional
-.zsh_professional
-.ssh_config

@@ -1,5 +1,5 @@
-#!/usr/bin/env zsh
- 
+#!/bin/bash
+
 # checks if current branch contains issue key
 # when it contains - hook automatically adds issue marker (e.g. [KEY-1] text)
 # to each commit message you create in this branch
