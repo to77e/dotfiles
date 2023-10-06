@@ -27,12 +27,12 @@ alias k=kubectl
 alias rm='echo "rm is disabled, use trash instead."'
 alias bashrc="vim ~/.bashrc && . ~/.bashrc"
 
-#zsh
-#alias ll='ls -alF'
-#alias la='ls -A'
-#alias l='ls -CF'
-#alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-#alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-#alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
-#alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
-#alias zshrc="vim ~/.zshrc && . ~/.zshrc"
+# zsh
+# alias ll='ls -alF'
+# alias la='ls -A'
+# alias l='ls -CF'
+# alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+# alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+# alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+# alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+# alias zshrc="vim ~/.zshrc && . ~/.zshrc"

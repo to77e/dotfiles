@@ -10,7 +10,7 @@ git() {
 }
 
 
-# Add golang
+# golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export GOBIN=$GOPATH/bin
@@ -21,22 +21,22 @@ export GOINSECURE=none
 source <(kubectl completion bash)
 complete -F __start_kubectl k
 
-#prompt
+# prompt
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
-#zsh
-#autoload -Uz compinit && compinit
-#git_branch() {
+# zsh
+# autoload -Uz compinit && compinit
+# git_branch() {
 #        git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-#}
+# }
 #
-#get_euid() {
+# get_euid() {
 #        if [ "$EUID" -ne 0 ]
 #                then echo "$ "
 #                else echo "# "
 #        fi
-#}
+# }
 #
-#setopt PROMPT_SUBST
-#PROMPT='%F{green}%n%f:%B%F{blue}%~%f%b%F{yellow}$(git_branch)%f$(get_euid)'
+# setopt PROMPT_SUBST
+# PROMPT='%F{green}%n%f:%B%F{blue}%~%f%b%F{yellow}$(git_branch)%f$(get_euid)'

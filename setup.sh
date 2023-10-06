@@ -2,7 +2,7 @@
 
 cd "$(dirname "${BASH_SOURCE[0]}")";
 
-#git pull origin main;
+# git pull origin main;
 
 function setup() {
 	rsync --exclude "README.md" \
