@@ -13,6 +13,7 @@ git() {
 # golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin
 export GOBIN=$GOPATH/bin
 export GONOPROXY=""
 export GO111MODULE=on
